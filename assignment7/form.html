@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<link rel= "stylesheet" href="styles.css"/>
+<body>
+
+<h3>Personal Form</h3>
+
+<div id="content">
+  <form method="dialog" >
+    <div class="direction">First Name <span class = "imp">*</span></div>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." >
+
+    <div class="direction">Last Name</div>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	
+	<div class="direction">rollnumbr <span class = "imp">*</span></div>
+    <input type="number" id="rollno" name="rollno" placeholder="Your roll number.." required>
+	
+	<div class="direction">department</div>
+    <input type="text" id="dept" name="department" placeholder="Your department..">
+	
+	<div class="direction">subject</div>
+    <input type="text" id="subject" name="subject" placeholder="Your subject..">
+
+    <div class="direction">Country</div>
+    <select id="country" name="country">
+      <option >India</option>
+      <option >Japan</option>
+      <option >USA</option>
+    </select>
+	
+	<input type="submit" name="submit" id="submit" onclick=data() >
+  <input type="reset">
+  </form>
+</div>
+
+<div class="tb">
+<table id ="table1">
+  <tr>
+	<th>rollno</th>
+    <th>Firstname</th>
+    <th>Lastname</th>
+	<th>department</th>
+	<th>subject</th>
+	<th>Country</th>
+  </tr>
+</table>
+</div>
+
+<script src="javascritp.js"></script>
+
+</body>
+</html>
