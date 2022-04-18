@@ -1,0 +1,7 @@
+{
+
+    "person":[
+        {"name":"sahil","age":22,"college":"goauniversity"},
+        {"name":"chinmay","age":23,"college":"aitd"}
+    ]
+}
